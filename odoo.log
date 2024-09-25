@@ -1,0 +1,563 @@
+2024-09-25 07:49:36,368 27280 WARNING ? py.warnings: D:\Herzi\Project\logid-erp\odoo\odoo\tools\config.py:560: DeprecationWarning: The longpolling-port is a deprecated alias to the gevent-port option, please use the latter.
+  File "D:\Herzi\Project\logid-erp\odoo\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\cli\server.py", line 184, in run
+    main(args)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\cli\server.py", line 131, in main
+    odoo.tools.config.parse_config(args)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\tools\config.py", line 380, in parse_config
+    self._warn_deprecated_options()
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\tools\config.py", line 560, in _warn_deprecated_options
+    warnings.warn(
+ 
+2024-09-25 07:49:36,369 27280 WARNING ? py.warnings: D:\Herzi\Project\logid-erp\odoo\odoo\tools\config.py:586: DeprecationWarning: The 'osv_memory_age_limit' option found in the configuration file is a deprecated alias to 'transient_age_limit', please use the latter.
+  File "D:\Herzi\Project\logid-erp\odoo\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\cli\server.py", line 184, in run
+    main(args)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\cli\server.py", line 131, in main
+    odoo.tools.config.parse_config(args)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\tools\config.py", line 380, in parse_config
+    self._warn_deprecated_options()
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\tools\config.py", line 586, in _warn_deprecated_options
+    warnings.warn(
+ 
+2024-09-25 07:49:36,369 27280 INFO ? odoo: Odoo version 17.0 
+2024-09-25 07:49:36,369 27280 INFO ? odoo: Using configuration file at D:\Herzi\Project\logid-erp\odoo\odoo.conf 
+2024-09-25 07:49:36,369 27280 INFO ? odoo: addons paths: ['D:\\Herzi\\Project\\logid-erp\\odoo\\odoo\\addons', 'c:\\users\\user\\appdata\\local\\openerp s.a\\odoo\\addons\\17.0', 'd:\\herzi\\project\\logid-erp\\odoo\\addons', 'd:\\herzi\\project\\logid-erp\\odoo', 'd:\\herzi\\project\\logid-erp\\odoo\\odoo\\addons'] 
+2024-09-25 07:49:36,369 27280 INFO ? odoo: database: odoo_logid_erp@localhost:5432 
+2024-09-25 07:49:36,542 27280 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe 
+2024-09-25 07:49:37,797 27280 INFO ? odoo.service.server: HTTP service (werkzeug) running on EJI:8088 
+2024-09-25 07:50:00,052 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:50:00] "GET / HTTP/1.1" 303 - 1 0.005 0.065
+2024-09-25 07:50:00,316 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:50:00] "GET /web HTTP/1.1" 303 - 2 0.011 0.084
+2024-09-25 07:50:01,882 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:50:01] "GET /web/database/selector HTTP/1.1" 200 - 2 0.012 1.496
+2024-09-25 07:50:02,005 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:50:02] "GET /web/static/src/libs/fontawesome/css/font-awesome.css HTTP/1.1" 200 - 1 0.005 0.049
+2024-09-25 07:50:02,756 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:50:02] "GET /web/static/lib/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 - 1 0.008 0.478
+2024-09-25 07:50:02,756 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:50:02] "GET /web/static/lib/bootstrap/js/dist/dom/event-handler.js HTTP/1.1" 200 - 1 0.004 0.479
+2024-09-25 07:50:02,756 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:50:02] "GET /web/static/lib/bootstrap/js/dist/dom/data.js HTTP/1.1" 200 - 1 0.006 0.478
+2024-09-25 07:50:02,758 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:50:02] "GET /web/static/lib/bootstrap/js/dist/dom/selector-engine.js HTTP/1.1" 200 - 1 0.006 0.478
+2024-09-25 07:50:02,786 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:50:02] "GET /web/static/lib/bootstrap/js/dist/dom/manipulator.js HTTP/1.1" 200 - 1 0.005 0.507
+2024-09-25 07:50:02,788 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:50:02] "GET /web/static/lib/bootstrap/js/dist/base-component.js HTTP/1.1" 200 - 1 0.008 0.463
+2024-09-25 07:50:03,199 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:50:03] "GET /web/static/src/public/database_manager.js HTTP/1.1" 200 - 1 0.006 0.121
+2024-09-25 07:50:03,201 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:50:03] "GET /web/static/lib/bootstrap/js/dist/modal.js HTTP/1.1" 200 - 1 0.006 0.123
+2024-09-25 07:50:03,217 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:50:03] "GET /web/static/img/logo2.png HTTP/1.1" 200 - 1 0.009 0.132
+2024-09-25 07:50:03,595 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:50:03] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 1 0.007 0.052
+2024-09-25 07:50:03,843 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:50:03] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 1 0.005 0.052
+2024-09-25 07:50:05,021 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:50:05] "GET /web/service-worker.js HTTP/1.1" 404 - 1 0.005 0.058
+2024-09-25 07:50:41,566 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:50:41] "GET /web/service-worker.js HTTP/1.1" 404 - 1 0.004 0.045
+2024-09-25 07:51:06,235 27280 INFO None odoo.service.db: Create database `odoo_logid_erp`. 
+2024-09-25 07:51:08,144 27280 INFO odoo_logid_erp odoo.modules.loading: loading 1 modules... 
+2024-09-25 07:51:08,144 27280 INFO odoo_logid_erp odoo.modules.loading: Loading module base (1/1) 
+2024-09-25 07:51:08,161 27280 INFO odoo_logid_erp odoo.modules.registry: module base: creating or updating database tables 
+2024-09-25 07:51:08,680 27280 INFO odoo_logid_erp odoo.models: Prepare computation of ir.module.module.menus_by_module 
+2024-09-25 07:51:08,680 27280 INFO odoo_logid_erp odoo.models: Prepare computation of ir.module.module.reports_by_module 
+2024-09-25 07:51:08,680 27280 INFO odoo_logid_erp odoo.models: Prepare computation of ir.module.module.views_by_module 
+2024-09-25 07:51:08,874 27280 INFO odoo_logid_erp odoo.models: Prepare computation of res.partner.user_id 
+2024-09-25 07:51:08,874 27280 INFO odoo_logid_erp odoo.models: Prepare computation of res.partner.commercial_partner_id 
+2024-09-25 07:51:08,874 27280 INFO odoo_logid_erp odoo.models: Prepare computation of res.partner.complete_name 
+2024-09-25 07:51:08,874 27280 INFO odoo_logid_erp odoo.models: Prepare computation of res.partner.company_registry 
+2024-09-25 07:51:08,874 27280 INFO odoo_logid_erp odoo.models: Prepare computation of res.partner.commercial_company_name 
+2024-09-25 07:51:08,874 27280 INFO odoo_logid_erp odoo.models: Prepare computation of res.partner.partner_share 
+2024-09-25 07:51:08,941 27280 INFO odoo_logid_erp odoo.models: Prepare computation of res.currency.decimal_places 
+2024-09-25 07:51:08,991 27280 INFO odoo_logid_erp odoo.models: Prepare computation of res.company.uses_default_logo 
+2024-09-25 07:51:08,992 27280 INFO odoo_logid_erp odoo.models: Prepare computation of res.company.logo_web 
+2024-09-25 07:51:08,994 27280 INFO odoo_logid_erp odoo.models: Computing parent_path for table res_company... 
+2024-09-25 07:51:09,044 27280 INFO odoo_logid_erp odoo.models: Prepare computation of res.users.signature 
+2024-09-25 07:51:09,044 27280 INFO odoo_logid_erp odoo.models: Prepare computation of res.users.share 
+2024-09-25 07:51:11,391 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/data/res_bank.xml 
+2024-09-25 07:51:11,399 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/data/res.lang.csv 
+2024-09-25 07:51:11,451 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/data/res_lang_data.xml 
+2024-09-25 07:51:11,502 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/data/res_partner_data.xml 
+2024-09-25 07:51:11,610 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/data/res_currency_data.xml 
+2024-09-25 07:51:12,359 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/data/res_company_data.xml 
+2024-09-25 07:51:12,373 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/data/res_users_data.xml 
+2024-09-25 07:51:13,670 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2024-09-25 07:51:13,682 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/data/res_country_data.xml 
+2024-09-25 07:51:14,349 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2024-09-25 07:51:14,362 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/security/base_groups.xml 
+2024-09-25 07:51:14,641 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/security/base_security.xml 
+2024-09-25 07:51:14,838 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/base_menus.xml 
+2024-09-25 07:51:14,946 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2024-09-25 07:51:14,967 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/res_config_views.xml 
+2024-09-25 07:51:14,980 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/data/res.country.state.csv 
+2024-09-25 07:51:15,668 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2024-09-25 07:51:15,859 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/ir_asset_views.xml 
+2024-09-25 07:51:15,887 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2024-09-25 07:51:15,912 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2024-09-25 07:51:15,957 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml 
+2024-09-25 07:51:15,986 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2024-09-25 07:51:16,014 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2024-09-25 07:51:16,044 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/ir_model_views.xml 
+2024-09-25 07:51:16,257 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2024-09-25 07:51:16,319 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2024-09-25 07:51:16,380 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2024-09-25 07:51:16,422 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2024-09-25 07:51:16,449 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2024-09-25 07:51:16,517 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/ir_default_views.xml 
+2024-09-25 07:51:16,546 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2024-09-25 07:51:16,566 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/report/ir_model_report.xml 
+2024-09-25 07:51:16,573 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2024-09-25 07:51:16,583 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2024-09-25 07:51:16,613 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2024-09-25 07:51:16,633 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/ir_module_views.xml 
+2024-09-25 07:51:16,705 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2024-09-25 07:51:16,808 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/data/ir_module_module.xml 
+2024-09-25 07:51:16,915 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2024-09-25 07:51:16,921 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2024-09-25 07:51:16,929 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2024-09-25 07:51:16,946 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2024-09-25 07:51:16,964 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2024-09-25 07:51:16,982 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2024-09-25 07:51:17,013 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2024-09-25 07:51:17,023 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2024-09-25 07:51:17,041 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2024-09-25 07:51:17,060 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2024-09-25 07:51:17,081 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/ir_profile_views.xml 
+2024-09-25 07:51:17,112 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/res_company_views.xml 
+2024-09-25 07:51:17,147 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/res_lang_views.xml 
+2024-09-25 07:51:17,180 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/res_partner_views.xml 
+2024-09-25 07:51:17,339 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/res_bank_views.xml 
+2024-09-25 07:51:17,385 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/res_country_views.xml 
+2024-09-25 07:51:17,440 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/res_currency_views.xml 
+2024-09-25 07:51:17,490 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/res_users_views.xml 
+2024-09-25 07:51:17,644 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/res_users_identitycheck_views.xml 
+2024-09-25 07:51:17,658 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/ir_property_views.xml 
+2024-09-25 07:51:17,687 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2024-09-25 07:51:17,699 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2024-09-25 07:51:17,734 27280 INFO odoo_logid_erp odoo.modules.loading: loading base/security/ir.model.access.csv 
+2024-09-25 07:51:17,994 27280 INFO odoo_logid_erp odoo.modules.loading: Module base loaded in 9.85s, 7924 queries (+7926 other) 
+2024-09-25 07:51:17,994 27280 INFO odoo_logid_erp odoo.modules.loading: 1 modules loaded in 9.85s, 7924 queries (+7926 extra) 
+2024-09-25 07:51:18,053 27280 INFO odoo_logid_erp odoo.modules.loading: updating modules list 
+2024-09-25 07:51:18,053 27280 INFO odoo_logid_erp odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2024-09-25 07:51:19,036 27280 INFO odoo_logid_erp odoo.modules.loading: loading 11 modules... 
+2024-09-25 07:51:19,036 27280 INFO odoo_logid_erp odoo.modules.loading: Loading module web (2/11) 
+2024-09-25 07:51:19,063 27280 INFO odoo_logid_erp odoo.modules.registry: module web: creating or updating database tables 
+2024-09-25 07:51:19,868 27280 INFO odoo_logid_erp odoo.modules.loading: loading web/security/ir.model.access.csv 
+2024-09-25 07:51:19,903 27280 INFO odoo_logid_erp odoo.modules.loading: loading web/views/webclient_templates.xml 
+2024-09-25 07:51:19,996 27280 INFO odoo_logid_erp odoo.modules.loading: loading web/views/report_templates.xml 
+2024-09-25 07:51:20,127 27280 INFO odoo_logid_erp odoo.modules.loading: loading web/views/base_document_layout_views.xml 
+2024-09-25 07:51:20,153 27280 INFO odoo_logid_erp odoo.modules.loading: loading web/views/partner_view.xml 
+2024-09-25 07:51:20,163 27280 INFO odoo_logid_erp odoo.modules.loading: loading web/views/speedscope_template.xml 
+2024-09-25 07:51:20,172 27280 INFO odoo_logid_erp odoo.modules.loading: loading web/views/neutralize_views.xml 
+2024-09-25 07:51:20,180 27280 INFO odoo_logid_erp odoo.modules.loading: loading web/data/ir_attachment.xml 
+2024-09-25 07:51:20,192 27280 INFO odoo_logid_erp odoo.modules.loading: loading web/data/report_layout.xml 
+2024-09-25 07:51:20,264 27280 INFO odoo_logid_erp odoo.modules.loading: Module web loaded in 1.23s, 1003 queries (+1003 other) 
+2024-09-25 07:51:20,264 27280 INFO odoo_logid_erp odoo.modules.loading: Loading module auth_totp (3/11) 
+2024-09-25 07:51:20,324 27280 INFO odoo_logid_erp odoo.modules.registry: module auth_totp: creating or updating database tables 
+2024-09-25 07:51:20,420 27280 INFO odoo_logid_erp odoo.modules.loading: loading auth_totp/security/security.xml 
+2024-09-25 07:51:20,465 27280 INFO odoo_logid_erp odoo.modules.loading: loading auth_totp/security/ir.model.access.csv 
+2024-09-25 07:51:20,480 27280 INFO odoo_logid_erp odoo.modules.loading: loading auth_totp/data/ir_action_data.xml 
+2024-09-25 07:51:20,493 27280 INFO odoo_logid_erp odoo.modules.loading: loading auth_totp/views/res_users_views.xml 
+2024-09-25 07:51:20,530 27280 INFO odoo_logid_erp odoo.modules.loading: loading auth_totp/views/templates.xml 
+2024-09-25 07:51:20,538 27280 INFO odoo_logid_erp odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml 
+2024-09-25 07:51:20,564 27280 INFO odoo_logid_erp odoo.modules.loading: Module auth_totp loaded in 0.30s, 179 queries (+179 other) 
+2024-09-25 07:51:20,564 27280 INFO odoo_logid_erp odoo.modules.loading: Loading module base_import (4/11) 
+2024-09-25 07:51:20,596 27280 INFO odoo_logid_erp odoo.modules.registry: module base_import: creating or updating database tables 
+2024-09-25 07:51:21,253 27280 INFO odoo_logid_erp odoo.modules.loading: loading base_import/security/ir.model.access.csv 
+2024-09-25 07:51:21,280 27280 INFO odoo_logid_erp odoo.modules.loading: Module base_import loaded in 0.72s, 815 queries (+815 other) 
+2024-09-25 07:51:21,281 27280 INFO odoo_logid_erp odoo.modules.loading: Loading module base_import_module (5/11) 
+2024-09-25 07:51:21,313 27280 INFO odoo_logid_erp odoo.modules.registry: module base_import_module: creating or updating database tables 
+2024-09-25 07:51:21,419 27280 INFO odoo_logid_erp odoo.modules.loading: loading base_import_module/security/ir.model.access.csv 
+2024-09-25 07:51:21,434 27280 INFO odoo_logid_erp odoo.modules.loading: loading base_import_module/views/base_import_module_view.xml 
+2024-09-25 07:51:21,465 27280 INFO odoo_logid_erp odoo.modules.loading: loading base_import_module/views/ir_module_views.xml 
+2024-09-25 07:51:21,528 27280 INFO odoo_logid_erp odoo.modules.loading: Module base_import_module loaded in 0.25s, 154 queries (+154 other) 
+2024-09-25 07:51:21,529 27280 INFO odoo_logid_erp odoo.modules.loading: Loading module base_setup (6/11) 
+2024-09-25 07:51:21,554 27280 INFO odoo_logid_erp odoo.modules.registry: module base_setup: creating or updating database tables 
+2024-09-25 07:51:21,628 27280 INFO odoo_logid_erp odoo.modules.loading: loading base_setup/data/base_setup_data.xml 
+2024-09-25 07:51:21,634 27280 INFO odoo_logid_erp odoo.modules.loading: loading base_setup/views/res_config_settings_views.xml 
+2024-09-25 07:51:21,678 27280 INFO odoo_logid_erp odoo.modules.loading: loading base_setup/views/res_partner_views.xml 
+2024-09-25 07:51:21,706 27280 INFO odoo_logid_erp odoo.modules.loading: Module base_setup loaded in 0.18s, 139 queries (+139 other) 
+2024-09-25 07:51:21,706 27280 INFO odoo_logid_erp odoo.modules.loading: Loading module bus (7/11) 
+2024-09-25 07:51:21,745 27280 INFO odoo_logid_erp odoo.modules.registry: module bus: creating or updating database tables 
+2024-09-25 07:51:21,845 27280 INFO odoo_logid_erp odoo.modules.loading: loading bus/security/ir.model.access.csv 
+2024-09-25 07:51:21,877 27280 INFO odoo_logid_erp odoo.modules.loading: Module bus loaded in 0.17s, 116 queries (+116 other) 
+2024-09-25 07:51:21,877 27280 INFO odoo_logid_erp odoo.modules.loading: Loading module web_tour (8/11) 
+2024-09-25 07:51:21,900 27280 INFO odoo_logid_erp odoo.modules.registry: module web_tour: creating or updating database tables 
+2024-09-25 07:51:21,941 27280 INFO odoo_logid_erp odoo.modules.loading: loading web_tour/security/ir.model.access.csv 
+2024-09-25 07:51:21,955 27280 INFO odoo_logid_erp odoo.modules.loading: loading web_tour/security/ir.rule.csv 
+2024-09-25 07:51:21,970 27280 INFO odoo_logid_erp odoo.modules.loading: loading web_tour/views/tour_views.xml 
+2024-09-25 07:51:22,020 27280 INFO odoo_logid_erp odoo.modules.loading: Module web_tour loaded in 0.14s, 104 queries (+104 other) 
+2024-09-25 07:51:22,020 27280 INFO odoo_logid_erp odoo.modules.loading: Loading module iap (9/11) 
+2024-09-25 07:51:22,045 27280 INFO odoo_logid_erp odoo.modules.registry: module iap: creating or updating database tables 
+2024-09-25 07:51:22,147 27280 INFO odoo_logid_erp odoo.modules.loading: loading iap/security/ir.model.access.csv 
+2024-09-25 07:51:22,210 27280 INFO odoo_logid_erp odoo.modules.loading: loading iap/security/ir_rule.xml 
+2024-09-25 07:51:22,222 27280 INFO odoo_logid_erp odoo.modules.loading: loading iap/views/iap_views.xml 
+2024-09-25 07:51:22,248 27280 INFO odoo_logid_erp odoo.modules.loading: loading iap/views/res_config_settings.xml 
+2024-09-25 07:51:22,284 27280 INFO odoo_logid_erp odoo.modules.loading: Module iap loaded in 0.26s, 151 queries (+151 other) 
+2024-09-25 07:51:22,284 27280 INFO odoo_logid_erp odoo.modules.loading: Loading module web_editor (10/11) 
+2024-09-25 07:51:22,353 27280 INFO odoo_logid_erp odoo.modules.registry: module web_editor: creating or updating database tables 
+2024-09-25 07:51:23,073 27280 INFO odoo_logid_erp odoo.modules.loading: loading web_editor/security/ir.model.access.csv 
+2024-09-25 07:51:23,091 27280 INFO odoo_logid_erp odoo.modules.loading: loading web_editor/data/editor_assets.xml 
+2024-09-25 07:51:23,100 27280 INFO odoo_logid_erp odoo.modules.loading: loading web_editor/views/editor.xml 
+2024-09-25 07:51:23,123 27280 INFO odoo_logid_erp odoo.modules.loading: loading web_editor/views/snippets.xml 
+2024-09-25 07:51:23,188 27280 INFO odoo_logid_erp odoo.modules.loading: Module web_editor loaded in 0.90s, 921 queries (+921 other) 
+2024-09-25 07:51:23,188 27280 INFO odoo_logid_erp odoo.modules.loading: Loading module web_unsplash (11/11) 
+2024-09-25 07:51:23,215 27280 INFO odoo_logid_erp odoo.modules.registry: module web_unsplash: creating or updating database tables 
+2024-09-25 07:51:23,274 27280 INFO odoo_logid_erp odoo.modules.loading: loading web_unsplash/views/res_config_settings_view.xml 
+2024-09-25 07:51:23,319 27280 INFO odoo_logid_erp odoo.modules.loading: Module web_unsplash loaded in 0.13s, 95 queries (+95 other) 
+2024-09-25 07:51:23,319 27280 INFO odoo_logid_erp odoo.modules.loading: 11 modules loaded in 4.28s, 3677 queries (+3677 extra) 
+2024-09-25 07:51:23,663 27280 INFO odoo_logid_erp odoo.modules.loading: Modules loaded. 
+2024-09-25 07:51:23,667 27280 INFO odoo_logid_erp odoo.modules.registry: Registry loaded in 15.553s 
+2024-09-25 07:51:23,888 27280 INFO odoo_logid_erp odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-09-25 07:51:23,924 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:23] "GET /web/service-worker.js HTTP/1.1" 200 - 7 0.036 9.472
+2024-09-25 07:51:24,343 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:24] "GET /web/offline HTTP/1.1" 200 - 13 0.016 0.084
+2024-09-25 07:51:25,358 27280 INFO odoo_logid_erp odoo.addons.base.models.res_users: Login successful for db:odoo_logid_erp login:odoo_logid_erp from 127.0.0.1 
+2024-09-25 07:51:25,372 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:25] "POST /web/database/create HTTP/1.1" 303 - 17319 10.951 10.716
+2024-09-25 07:51:25,459 27280 INFO None odoo.service.db: Create database `odoo_logid_erp`. 
+2024-09-25 07:51:25,503 27280 ERROR None odoo.addons.web.controllers.database: Database creation error. 
+Traceback (most recent call last):
+  File "d:\herzi\project\logid-erp\odoo\addons\web\controllers\database.py", line 81, in create
+    dispatch_rpc('db', 'create_database', [master_pwd, name, bool(post.get('demo')), lang, password, post['login'], country_code, post['phone']])
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\http.py", line 391, in dispatch_rpc
+    return dispatch(method, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\service\db.py", line 488, in dispatch
+    return g[exp_method_name](*params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python312\Lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\service\db.py", line 43, in if_db_mgt_enabled
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\service\db.py", line 148, in exp_create_database
+    _create_empty_database(db_name)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\service\db.py", line 106, in _create_empty_database
+    raise DatabaseExists("database %r already exists!" % (name,))
+odoo.service.db.DatabaseExists: database 'odoo_logid_erp' already exists!
+2024-09-25 07:51:26,234 27280 INFO None werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:26] "POST /web/database/create HTTP/1.1" 200 - 9 0.026 12.769
+2024-09-25 07:51:28,167 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:28] "GET /web/service-worker.js HTTP/1.1" 200 - 9 0.006 0.015
+2024-09-25 07:51:34,214 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:34] "GET /web?db=odoo_logid_erp HTTP/1.1" 303 - 1 0.001 0.009
+2024-09-25 07:51:34,895 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:34] "GET /web/login?db=odoo_logid_erp HTTP/1.1" 200 - 49 0.031 0.335
+2024-09-25 07:51:35,296 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:35] "GET /web/binary/company_logo?dbname=odoo_logid_erp HTTP/1.1" 200 - 2 0.012 0.056
+2024-09-25 07:51:35,338 27280 INFO odoo_logid_erp odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/c76a62f/web.assets_frontend_minimal.min.js (id:13) 
+2024-09-25 07:51:35,366 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:35] "GET /web/assets/c76a62f/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 12 0.030 0.106
+2024-09-25 07:51:40,422 27280 INFO odoo_logid_erp odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2024-09-25 07:51:40,426 27280 INFO odoo_logid_erp odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/0b635d1/web.assets_frontend.min.css (id:14) 
+2024-09-25 07:51:40,437 27280 ERROR odoo_logid_erp odoo.addons.base.models.ir_autovacuum: Failed wizard.ir.model.menu.create()._transient_vacuum() 
+Traceback (most recent call last):
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\addons\base\models\ir_autovacuum.py", line 38, in _run_vacuum_cleaner
+    func(model)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7160, in _transient_vacuum
+    self._transient_clean_rows_older_than(self._transient_max_hours * 60 * 60)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7175, in _transient_clean_rows_older_than
+    seconds = max(seconds, 300)
+              ^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'int' and 'str'
+2024-09-25 07:51:40,440 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:40] "GET /web/assets/0b635d1/web.assets_frontend.min.css HTTP/1.1" 200 - 9 0.020 5.505
+2024-09-25 07:51:40,444 27280 ERROR odoo_logid_erp odoo.addons.base.models.ir_autovacuum: Failed reset.view.arch.wizard()._transient_vacuum() 
+Traceback (most recent call last):
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\addons\base\models\ir_autovacuum.py", line 38, in _run_vacuum_cleaner
+    func(model)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7160, in _transient_vacuum
+    self._transient_clean_rows_older_than(self._transient_max_hours * 60 * 60)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7175, in _transient_clean_rows_older_than
+    seconds = max(seconds, 300)
+              ^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'int' and 'str'
+2024-09-25 07:51:40,458 27280 INFO odoo_logid_erp odoo.addons.base.models.ir_attachment: filestore gc 2 checked, 0 removed 
+2024-09-25 07:51:40,484 27280 ERROR odoo_logid_erp odoo.addons.base.models.ir_autovacuum: Failed ir.demo()._transient_vacuum() 
+Traceback (most recent call last):
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\addons\base\models\ir_autovacuum.py", line 38, in _run_vacuum_cleaner
+    func(model)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7160, in _transient_vacuum
+    self._transient_clean_rows_older_than(self._transient_max_hours * 60 * 60)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7175, in _transient_clean_rows_older_than
+    seconds = max(seconds, 300)
+              ^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'int' and 'str'
+2024-09-25 07:51:40,485 27280 ERROR odoo_logid_erp odoo.addons.base.models.ir_autovacuum: Failed ir.demo_failure()._transient_vacuum() 
+Traceback (most recent call last):
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\addons\base\models\ir_autovacuum.py", line 38, in _run_vacuum_cleaner
+    func(model)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7160, in _transient_vacuum
+    self._transient_clean_rows_older_than(self._transient_max_hours * 60 * 60)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7175, in _transient_clean_rows_older_than
+    seconds = max(seconds, 300)
+              ^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'int' and 'str'
+2024-09-25 07:51:40,488 27280 ERROR odoo_logid_erp odoo.addons.base.models.ir_autovacuum: Failed ir.demo_failure.wizard()._transient_vacuum() 
+Traceback (most recent call last):
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\addons\base\models\ir_autovacuum.py", line 38, in _run_vacuum_cleaner
+    func(model)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7160, in _transient_vacuum
+    self._transient_clean_rows_older_than(self._transient_max_hours * 60 * 60)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7175, in _transient_clean_rows_older_than
+    seconds = max(seconds, 300)
+              ^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'int' and 'str'
+2024-09-25 07:51:40,494 27280 ERROR odoo_logid_erp odoo.addons.base.models.ir_autovacuum: Failed base.enable.profiling.wizard()._transient_vacuum() 
+Traceback (most recent call last):
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\addons\base\models\ir_autovacuum.py", line 38, in _run_vacuum_cleaner
+    func(model)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7160, in _transient_vacuum
+    self._transient_clean_rows_older_than(self._transient_max_hours * 60 * 60)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7175, in _transient_clean_rows_older_than
+    seconds = max(seconds, 300)
+              ^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'int' and 'str'
+2024-09-25 07:51:40,501 27280 ERROR odoo_logid_erp odoo.addons.base.models.ir_autovacuum: Failed res.config()._transient_vacuum() 
+Traceback (most recent call last):
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\addons\base\models\ir_autovacuum.py", line 38, in _run_vacuum_cleaner
+    func(model)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7160, in _transient_vacuum
+    self._transient_clean_rows_older_than(self._transient_max_hours * 60 * 60)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7175, in _transient_clean_rows_older_than
+    seconds = max(seconds, 300)
+              ^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'int' and 'str'
+2024-09-25 07:51:40,503 27280 ERROR odoo_logid_erp odoo.addons.base.models.ir_autovacuum: Failed res.config.installer()._transient_vacuum() 
+Traceback (most recent call last):
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\addons\base\models\ir_autovacuum.py", line 38, in _run_vacuum_cleaner
+    func(model)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7160, in _transient_vacuum
+    self._transient_clean_rows_older_than(self._transient_max_hours * 60 * 60)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7175, in _transient_clean_rows_older_than
+    seconds = max(seconds, 300)
+              ^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'int' and 'str'
+2024-09-25 07:51:40,505 27280 ERROR odoo_logid_erp odoo.addons.base.models.ir_autovacuum: Failed res.config.settings()._transient_vacuum() 
+Traceback (most recent call last):
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\addons\base\models\ir_autovacuum.py", line 38, in _run_vacuum_cleaner
+    func(model)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7160, in _transient_vacuum
+    self._transient_clean_rows_older_than(self._transient_max_hours * 60 * 60)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7175, in _transient_clean_rows_older_than
+    seconds = max(seconds, 300)
+              ^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'int' and 'str'
+2024-09-25 07:51:40,511 27280 INFO odoo_logid_erp odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2024-09-25 07:51:40,513 27280 ERROR odoo_logid_erp odoo.addons.base.models.ir_autovacuum: Failed res.users.identitycheck()._transient_vacuum() 
+Traceback (most recent call last):
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\addons\base\models\ir_autovacuum.py", line 38, in _run_vacuum_cleaner
+    func(model)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7160, in _transient_vacuum
+    self._transient_clean_rows_older_than(self._transient_max_hours * 60 * 60)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7175, in _transient_clean_rows_older_than
+    seconds = max(seconds, 300)
+              ^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'int' and 'str'
+2024-09-25 07:51:40,518 27280 ERROR odoo_logid_erp odoo.addons.base.models.ir_autovacuum: Failed change.password.user()._transient_vacuum() 
+Traceback (most recent call last):
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\addons\base\models\ir_autovacuum.py", line 38, in _run_vacuum_cleaner
+    func(model)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7160, in _transient_vacuum
+    self._transient_clean_rows_older_than(self._transient_max_hours * 60 * 60)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7175, in _transient_clean_rows_older_than
+    seconds = max(seconds, 300)
+              ^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'int' and 'str'
+2024-09-25 07:51:40,521 27280 ERROR odoo_logid_erp odoo.addons.base.models.ir_autovacuum: Failed res.users.apikeys.description()._transient_vacuum() 
+Traceback (most recent call last):
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\addons\base\models\ir_autovacuum.py", line 38, in _run_vacuum_cleaner
+    func(model)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7160, in _transient_vacuum
+    self._transient_clean_rows_older_than(self._transient_max_hours * 60 * 60)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7175, in _transient_clean_rows_older_than
+    seconds = max(seconds, 300)
+              ^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'int' and 'str'
+2024-09-25 07:51:40,524 27280 ERROR odoo_logid_erp odoo.addons.base.models.ir_autovacuum: Failed base.module.update()._transient_vacuum() 
+Traceback (most recent call last):
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\addons\base\models\ir_autovacuum.py", line 38, in _run_vacuum_cleaner
+    func(model)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7160, in _transient_vacuum
+    self._transient_clean_rows_older_than(self._transient_max_hours * 60 * 60)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7175, in _transient_clean_rows_older_than
+    seconds = max(seconds, 300)
+              ^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'int' and 'str'
+2024-09-25 07:51:40,525 27280 ERROR odoo_logid_erp odoo.addons.base.models.ir_autovacuum: Failed base.language.install()._transient_vacuum() 
+Traceback (most recent call last):
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\addons\base\models\ir_autovacuum.py", line 38, in _run_vacuum_cleaner
+    func(model)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7160, in _transient_vacuum
+    self._transient_clean_rows_older_than(self._transient_max_hours * 60 * 60)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7175, in _transient_clean_rows_older_than
+    seconds = max(seconds, 300)
+              ^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'int' and 'str'
+2024-09-25 07:51:40,525 27280 ERROR odoo_logid_erp odoo.addons.base.models.ir_autovacuum: Failed base.language.import()._transient_vacuum() 
+Traceback (most recent call last):
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\addons\base\models\ir_autovacuum.py", line 38, in _run_vacuum_cleaner
+    func(model)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7160, in _transient_vacuum
+    self._transient_clean_rows_older_than(self._transient_max_hours * 60 * 60)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7175, in _transient_clean_rows_older_than
+    seconds = max(seconds, 300)
+              ^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'int' and 'str'
+2024-09-25 07:51:40,526 27280 ERROR odoo_logid_erp odoo.addons.base.models.ir_autovacuum: Failed base.module.upgrade()._transient_vacuum() 
+Traceback (most recent call last):
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\addons\base\models\ir_autovacuum.py", line 38, in _run_vacuum_cleaner
+    func(model)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7160, in _transient_vacuum
+    self._transient_clean_rows_older_than(self._transient_max_hours * 60 * 60)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7175, in _transient_clean_rows_older_than
+    seconds = max(seconds, 300)
+              ^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'int' and 'str'
+2024-09-25 07:51:40,527 27280 ERROR odoo_logid_erp odoo.addons.base.models.ir_autovacuum: Failed base.module.uninstall()._transient_vacuum() 
+Traceback (most recent call last):
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\addons\base\models\ir_autovacuum.py", line 38, in _run_vacuum_cleaner
+    func(model)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7160, in _transient_vacuum
+    self._transient_clean_rows_older_than(self._transient_max_hours * 60 * 60)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7175, in _transient_clean_rows_older_than
+    seconds = max(seconds, 300)
+              ^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'int' and 'str'
+2024-09-25 07:51:40,527 27280 ERROR odoo_logid_erp odoo.addons.base.models.ir_autovacuum: Failed base.language.export()._transient_vacuum() 
+Traceback (most recent call last):
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\addons\base\models\ir_autovacuum.py", line 38, in _run_vacuum_cleaner
+    func(model)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7160, in _transient_vacuum
+    self._transient_clean_rows_older_than(self._transient_max_hours * 60 * 60)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7175, in _transient_clean_rows_older_than
+    seconds = max(seconds, 300)
+              ^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'int' and 'str'
+2024-09-25 07:51:40,528 27280 ERROR odoo_logid_erp odoo.addons.base.models.ir_autovacuum: Failed base.partner.merge.line()._transient_vacuum() 
+Traceback (most recent call last):
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\addons\base\models\ir_autovacuum.py", line 38, in _run_vacuum_cleaner
+    func(model)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7160, in _transient_vacuum
+    self._transient_clean_rows_older_than(self._transient_max_hours * 60 * 60)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7175, in _transient_clean_rows_older_than
+    seconds = max(seconds, 300)
+              ^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'int' and 'str'
+2024-09-25 07:51:40,529 27280 ERROR odoo_logid_erp odoo.addons.base.models.ir_autovacuum: Failed base.partner.merge.automatic.wizard()._transient_vacuum() 
+Traceback (most recent call last):
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\addons\base\models\ir_autovacuum.py", line 38, in _run_vacuum_cleaner
+    func(model)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7160, in _transient_vacuum
+    self._transient_clean_rows_older_than(self._transient_max_hours * 60 * 60)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7175, in _transient_clean_rows_older_than
+    seconds = max(seconds, 300)
+              ^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'int' and 'str'
+2024-09-25 07:51:40,530 27280 ERROR odoo_logid_erp odoo.addons.base.models.ir_autovacuum: Failed base.document.layout()._transient_vacuum() 
+Traceback (most recent call last):
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\addons\base\models\ir_autovacuum.py", line 38, in _run_vacuum_cleaner
+    func(model)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7160, in _transient_vacuum
+    self._transient_clean_rows_older_than(self._transient_max_hours * 60 * 60)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7175, in _transient_clean_rows_older_than
+    seconds = max(seconds, 300)
+              ^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'int' and 'str'
+2024-09-25 07:51:40,534 27280 INFO odoo_logid_erp odoo.addons.auth_totp.models.auth_totp: GC'd 0 totp devices entries 
+2024-09-25 07:51:40,535 27280 ERROR odoo_logid_erp odoo.addons.base.models.ir_autovacuum: Failed auth_totp.wizard()._transient_vacuum() 
+Traceback (most recent call last):
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\addons\base\models\ir_autovacuum.py", line 38, in _run_vacuum_cleaner
+    func(model)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7160, in _transient_vacuum
+    self._transient_clean_rows_older_than(self._transient_max_hours * 60 * 60)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7175, in _transient_clean_rows_older_than
+    seconds = max(seconds, 300)
+              ^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'int' and 'str'
+2024-09-25 07:51:40,540 27280 ERROR odoo_logid_erp odoo.addons.base.models.ir_autovacuum: Failed base.import.module()._transient_vacuum() 
+Traceback (most recent call last):
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\addons\base\models\ir_autovacuum.py", line 38, in _run_vacuum_cleaner
+    func(model)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7160, in _transient_vacuum
+    self._transient_clean_rows_older_than(self._transient_max_hours * 60 * 60)
+  File "D:\Herzi\Project\logid-erp\odoo\odoo\models.py", line 7175, in _transient_clean_rows_older_than
+    seconds = max(seconds, 300)
+              ^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'int' and 'str'
+2024-09-25 07:51:40,554 27280 INFO odoo_logid_erp odoo.addons.base.models.ir_cron: Job done: `Base: Auto-vacuum internal data` (0.132s). 
+2024-09-25 07:51:40,561 27280 INFO odoo_logid_erp odoo.addons.base.models.ir_cron: Starting job `Base: Portal Users Deletion`. 
+2024-09-25 07:51:40,567 27280 INFO odoo_logid_erp odoo.addons.base.models.ir_cron: Job done: `Base: Portal Users Deletion` (0.006s). 
+2024-09-25 07:51:41,977 27280 INFO odoo_logid_erp odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/167fbcd/web.assets_frontend_lazy.min.js (id:15) 
+2024-09-25 07:51:42,029 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:42] "GET /web/service-worker.js HTTP/1.1" 200 - 2 0.003 0.005
+2024-09-25 07:51:42,150 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:42] "GET /web/assets/167fbcd/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 9 0.006 1.335
+2024-09-25 07:51:42,559 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:42] "GET /web/webclient/translations/1727250702229 HTTP/1.1" 200 - 3 0.001 0.014
+2024-09-25 07:51:46,297 27280 INFO odoo_logid_erp odoo.addons.base.models.res_users: Login successful for db:odoo_logid_erp login:odoo_logid_erp from 127.0.0.1 
+2024-09-25 07:51:46,306 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:46] "POST /web/login HTTP/1.1" 303 - 30 0.047 0.721
+2024-09-25 07:51:46,966 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:46] "GET /web HTTP/1.1" 200 - 62 0.043 0.295
+2024-09-25 07:51:47,320 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:47] "GET /web/webclient/load_menus/172bef6a7af96680ac3a6d836ca7e789cae2e213afe9556bbb3468597f3484c3 HTTP/1.1" 200 - 1 0.002 0.006
+2024-09-25 07:51:47,335 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:47] "GET /web/webclient/translations/c097a4426362f8e75854b784c5418b565eb85939?lang=en_US HTTP/1.1" 200 - 3 0.017 0.004
+2024-09-25 07:51:53,949 27280 INFO odoo_logid_erp odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/450049f/web.assets_web.min.css (id:16) 
+2024-09-25 07:51:54,085 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:54] "GET /web/assets/450049f/web.assets_web.min.css HTTP/1.1" 200 - 12 0.043 7.036
+2024-09-25 07:51:55,064 27280 INFO odoo_logid_erp odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/ce91545/web.assets_web.min.js (id:17) 
+2024-09-25 07:51:55,624 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:55] "GET /web/assets/ce91545/web.assets_web.min.js HTTP/1.1" 200 - 11 0.013 8.299
+2024-09-25 07:51:56,108 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:56] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.010
+2024-09-25 07:51:56,164 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:56] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 8 0.007 0.012
+2024-09-25 07:51:56,193 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:56] "POST /web/action/load HTTP/1.1" 200 - 9 0.035 0.012
+2024-09-25 07:51:56,199 27280 INFO odoo_logid_erp odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/b033360/bus.websocket_worker_assets.min.js (id:18) 
+2024-09-25 07:51:56,217 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:56] "GET /bus/websocket_worker_bundle?v=17.0-1 HTTP/1.1" 200 - 8 0.008 0.061
+2024-09-25 07:51:56,443 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:56] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 48 0.031 0.051
+2024-09-25 07:51:56,504 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:56] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.002 0.002
+2024-09-25 07:51:56,539 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:56] "GET /websocket?version=17.0-1 HTTP/1.1" 101 - 1 0.001 0.005
+2024-09-25 07:51:56,573 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:56] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 40 0.020 0.021
+2024-09-25 07:51:56,779 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:56] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.007 0.006
+2024-09-25 07:51:56,820 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:56] "GET /web/static/img/odoo-icon-192x192.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-09-25 07:51:56,849 27280 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-09-25 07:51:57,322 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:57] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.005 0.552
+2024-09-25 07:51:57,805 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:57] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-09-25 07:51:57,825 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:57] "GET /base/static/img/icons/sign.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-09-25 07:51:57,826 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:57] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-09-25 07:51:57,827 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:57] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-09-25 07:51:57,830 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:57] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-09-25 07:51:57,835 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:57] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.010
+2024-09-25 07:51:58,115 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:58] "GET /hr/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-09-25 07:51:58,131 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:58] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-09-25 07:51:58,137 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:58] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-09-25 07:51:58,137 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:58] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-09-25 07:51:58,143 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:58] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-09-25 07:51:58,145 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:58] "GET /base/static/img/icons/knowledge.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-09-25 07:51:58,423 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:58] "GET /mrp/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-09-25 07:51:58,437 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:58] "GET /data_recycle/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-09-25 07:51:58,445 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:58] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-09-25 07:51:58,445 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:58] "GET /stock/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-09-25 07:51:58,452 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:58] "GET /project/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-09-25 07:51:58,454 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:58] "GET /base/static/img/icons/industry_fsm.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-09-25 07:51:58,732 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:58] "GET /hr_expense/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-09-25 07:51:58,748 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:58] "GET /website_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-09-25 07:51:58,751 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:58] "GET /purchase/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-09-25 07:51:58,756 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:58] "GET /maintenance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-09-25 07:51:58,760 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:58] "GET /website_slides/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-09-25 07:51:58,761 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:58] "GET /base/static/img/icons/planning.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-09-25 07:51:59,045 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:59] "GET /website_event/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-09-25 07:51:59,061 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:59] "GET /mail/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-09-25 07:51:59,062 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:59] "GET /sale_management/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-09-25 07:51:59,070 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:59] "GET /pos_restaurant/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-09-25 07:51:59,071 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:59] "GET /account/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-09-25 07:51:59,071 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:59] "GET /crm/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-09-25 07:51:59,354 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:59] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-09-25 07:51:59,370 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:59] "GET /website/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-09-25 07:51:59,370 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:59] "GET /contacts/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-09-25 07:51:59,377 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:59] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-09-25 07:51:59,381 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:59] "GET /calendar/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-09-25 07:51:59,382 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:59] "GET /base/static/img/icons/social.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-09-25 07:51:59,665 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:59] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-09-25 07:51:59,681 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:59] "GET /fleet/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-09-25 07:51:59,682 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:59] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-09-25 07:51:59,688 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:59] "GET /im_livechat/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-09-25 07:51:59,689 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:59] "GET /base/static/img/icons/appointment.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-09-25 07:51:59,708 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:59] "GET /survey/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-09-25 07:51:59,974 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:59] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-09-25 07:51:59,992 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:59] "GET /repair/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-09-25 07:51:59,993 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:59] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-09-25 07:51:59,999 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:51:59] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-09-25 07:52:00,000 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:52:00] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-09-25 07:52:00,023 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:52:00] "GET /project_todo/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-09-25 07:52:00,285 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:52:00] "GET /hr_skills/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-09-25 07:52:00,301 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:52:00] "GET /base/static/img/icons/voip.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-09-25 07:52:00,302 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:52:00] "GET /lunch/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-09-25 07:52:00,307 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:52:00] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-09-25 07:52:00,309 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:52:00] "GET /base/static/img/icons/sale_amazon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-09-25 07:52:00,332 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:52:00] "GET /base/static/img/icons/sale_ebay.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-09-25 07:52:00,595 27280 INFO ? werkzeug: 127.0.0.1 - - [25/Sep/2024 07:52:00] "GET /hr_contract/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-09-25 07:52:00,612 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:52:00] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.002
+2024-09-25 07:52:03,602 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:52:03] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.000 0.004
+2024-09-25 07:52:03,960 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:52:03] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 36 0.023 0.023
+2024-09-25 07:52:03,979 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:52:03] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.061
+2024-09-25 07:52:34,930 27280 INFO odoo_logid_erp werkzeug: 127.0.0.1 - - [25/Sep/2024 07:52:34] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.003
